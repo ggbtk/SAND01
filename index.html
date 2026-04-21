@@ -86,11 +86,11 @@
 
       <!-- 카카오톡 상담 버튼 -->
       <div class="flex flex-col items-center">
-        <a onclick="window.open(KAKAO_URL, '_blank')" class="flex items-center gap-2 bg-white hover:bg-gray-100 text-indigo-900 px-6 py-3 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105">
-          <i class="ri-kakao-talk-fill text-yellow-400 text-xl"></i> 카카오톡 상담
+        <a onclick="location.href='sms:' + TEL_NUMBER" class="flex items-center gap-2 bg-yellow-400 hover:bg-yellow-300 text-black px-6 py-3 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105">
+          <i class="ri-kakao-talk-fill text-yellow-400 text-xl"></i> 문자 상담
 		  <span class="footer-phone" class="block text-sm"></span>
         </a>
-        <span class="mt-2 text-sm text-gray-200">24시간 자동 연결</span>
+        <span class="mt-2 text-sm text-gray-200">365일 24시간 운영</span>
       </div>
     </div>
   </div>
@@ -118,7 +118,7 @@
           <i class="ri-chat-3-fill"></i>
         </div>
         <h4 class="font-bold text-xl mb-2 text-gray-900">1. 문의 접수</h4>
-        <p class="text-gray-600">전화 또는 카카오톡으로 간편하게 문의하세요.</p>
+        <p class="text-gray-600">전화 또는 문자로 간편하게 문의하세요.</p>
       </div>
 
       <div class="bg-white rounded-2xl p-8 shadow-md text-center hover:shadow-xl transition duration-300">
@@ -251,7 +251,7 @@
 </div>
       <!-- 카카오톡 상담 -->
 		<div class="flex flex-col items-center">
-		  <a onclick="window.open(KAKAO_URL, '_blank')"
+		  <a onclick="location.href='sms:' + TEL_NUMBER"
 			 class="flex flex-col items-center gap-1 bg-yellow-400 text-black hover:bg-yellow-300 px-6 py-3 rounded-full text-lg font-bold shadow-md transition-transform transform hover:scale-105 text-center">
 			<div class="flex items-center gap-2">
 			  <i class="ri-kakao-talk-fill text-xl"></i> 카카오톡 상담
@@ -462,11 +462,11 @@
 <div class="fixed bottom-0 left-0 w-full flex z-50 text-sm sm:text-base">
     <!-- 카카오톡 버튼 -->
     <button
-      onclick="window.open(KAKAO_URL, '_blank')"
+      onclick="location.href='sms:' + TEL_NUMBER"
       class="w-1/2 bg-yellow-400 text-black py-4 sm:py-5 font-bold hover:bg-yellow-500 transition flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2 text-center"
     >
       <i class="ri-kakao-talk-fill ri-lg sm:ri-xl"></i>
-      <span>카카오톡 상담 : <span class="footer-kakao-button">-</span></span>
+      <span>문자 상담 : <span class="footer-kakao-button">-</span></span>
     </button>
   
     <!-- 전화 연결 버튼 -->
